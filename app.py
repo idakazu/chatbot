@@ -4,84 +4,121 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# 固定で参照するCSVファイル
-CSV_FILE = "data.csv"
-ENCODING = "utf-8"  # 必要に応じて "cp932" (Shift_JIS) などに変更
+# ===== 固定設定 =====
+CSV_FILE = "Dance_School.csv"
+ENCODING = "utf-8"   # 必要に応じて "cp932" などに変更
+THRESHOLD = 0.30     # 類似度しきい値（下回れば「分からない」）
+TOP_K = 5            # 内部で参照する候補件数（UIには出さない）
+SHOW_SOURCES = False # デバッグ用（Trueで候補表示）
+# コンテキスト（履歴）設定
+CONTEXT_TURNS = 2    # 直近のユーザー質問を何件まで合成するか
+CONTEXT_DECAY = 0.7  # 古い質問ほど重みを下げる(0.0-1.0)
+USE_TOPIC_LOCK = True          # 最初に当たったトピックを優先
+TOPIC_LOCK_COL = "category"    # トピックとして使う列名（CSVにあれば有効）
 
 st.set_page_config(page_title="CSV QA Chatbot", page_icon="💬", layout="wide")
+st.title("💬 Q&A チャットボット")
+st.caption("自動で回答します。")
 
-st.title("💬 固定CSVベース Q&A チャットボット")
-st.caption("あらかじめ用意したCSVの内容をもとに、質問に自動回答します。分からない場合は「分からない」と答えます。")
-
-# 回答のしきい値
-threshold = st.sidebar.slider(
-    "回答の確信度しきい値（コサイン類似度）",
-    0.0, 1.0, 0.30, 0.01,
-    help="この値より低い場合は「分からない」と回答します。"
-)
-top_k = st.sidebar.number_input("関連候補の表示件数 (Top-K)", 1, 10, 3)
-show_sources = st.sidebar.checkbox("関連候補（ソース）を表示する", value=True)
-
-# CSVの読み込み
+# ===== CSV読込 =====
 try:
     df = pd.read_csv(CSV_FILE, encoding=ENCODING)
 except Exception as e:
     st.error(f"CSVファイルの読み込みに失敗しました: {e}")
     st.stop()
 
-st.success(f"CSVを読み込みました。行数: {len(df)}, 列: {list(df.columns)}")
+# 検索対象列・回答列（固定）
+INDEX_COLS = ["question"]
+ANSWER_COL = "answer"
+HAS_TOPIC = USE_TOPIC_LOCK and (TOPIC_LOCK_COL in df.columns)
 
-# 検索対象列・回答列を指定（ここでは固定例）
-index_cols = ["question"]   # 検索対象
-answer_col = "answer"       # 回答に使う列
-
-# インデックス作成
+# ===== インデックス作成 =====
 def build_index(df: pd.DataFrame, index_cols):
     texts = []
     for _, row in df.iterrows():
         parts = []
         for c in index_cols:
             val = row.get(c, "")
-            if pd.isna(val):
-                val = ""
-            parts.append(str(val))
+            val = "" if pd.isna(val) else str(val)
+            parts.append(val)
         texts.append(" ".join(parts))
     vectorizer = TfidfVectorizer(analyzer="char_wb", ngram_range=(2,5), min_df=1)
     X = vectorizer.fit_transform(texts)
     return vectorizer, X
 
-vectorizer, X = build_index(df, index_cols)
+vectorizer, X = build_index(df, INDEX_COLS)
 
-def retrieve_and_answer(question: str):
-    if not question.strip():
+# ===== 取得・回答 =====
+def retrieve_and_answer(current_question: str, history_user_questions: list, topic_hint: str | None):
+    """
+    history_user_questions: 直近から古い順に並んだユーザー質問のリスト（現在の質問は含めない）
+    topic_hint: 既定トピック（categoryなど）。優先的にそのトピックの候補を上位化
+    """
+    q = current_question.strip()
+    if not q:
         return None
-    q_vec = vectorizer.transform([question])
-    sims = cosine_similarity(q_vec, X)[0]
+
+    # --- クエリベクトルを履歴と合成 ---
+    q_vec = vectorizer.transform([q])
+    if CONTEXT_TURNS > 0 and len(history_user_questions) > 0:
+        # 直近の質問から順に最大CONTEXT_TURNS件、減衰重みで合成
+        for i, prev_q in enumerate(history_user_questions[:CONTEXT_TURNS]):
+            w = (CONTEXT_DECAY ** (i + 1))
+            q_vec += w * vectorizer.transform([prev_q])
+
+    sims = cosine_similarity(q_vec, X)[0]  # shape: (n_docs,)
     order = np.argsort(-sims)
-    best_idx = order[0]
+
+    # --- トピック固定が有効なら、そのトピックに属する候補を少し優遇 ---
+    if HAS_TOPIC and topic_hint:
+        # 同トピック行に微小ボーナス付与（類似度の0.02上乗せなど）
+        bonus = np.zeros_like(sims)
+        same_topic_mask = (df[TOPIC_LOCK_COL].astype(str) == str(topic_hint))
+        bonus[same_topic_mask.values] = 0.02  # 調整可
+        sims_with_bonus = sims + bonus
+        order = np.argsort(-sims_with_bonus)
+
+    best_idx = int(order[0])
     best_score = float(sims[best_idx])
 
-    if best_score < threshold:
+    # しきい値チェック
+    if best_score < THRESHOLD:
         return {
             "answer": "すみません、その質問の答えは分かりませんでした。",
             "score": best_score,
             "unknown": True,
-            "candidates": [(int(i), float(sims[i])) for i in order[:top_k]]
+            "candidates": [(int(i), float(sims[i])) for i in order[:TOP_K]],
+            "topic_hint": topic_hint  # 変更なし
         }
 
-    ans = df.iloc[best_idx][answer_col] if answer_col in df.columns else str(df.iloc[best_idx].to_dict())
+    # 回答取得
+    if ANSWER_COL in df.columns:
+        ans = df.iloc[best_idx][ANSWER_COL]
+    else:
+        ans = str(df.iloc[best_idx].to_dict())
+
+    # 新しいトピックヒント（最初の確信あるヒットで固定）
+    new_topic_hint = topic_hint
+    if HAS_TOPIC and topic_hint is None:
+        maybe_topic = df.iloc[best_idx][TOPIC_LOCK_COL]
+        if pd.notna(maybe_topic):
+            new_topic_hint = str(maybe_topic)
+
     return {
         "answer": str(ans),
         "score": best_score,
         "unknown": False,
-        "candidates": [(int(i), float(sims[i])) for i in order[:top_k]]
+        "candidates": [(int(i), float(sims[i])) for i in order[:TOP_K]],
+        "topic_hint": new_topic_hint
     }
 
-# セッションステート初期化
+# ===== セッション状態 =====
 if "messages" not in st.session_state:
-    st.session_state.messages = []
+    st.session_state.messages = []  # {"role": "user"/"assistant", "content": str}
+if "topic_hint" not in st.session_state:
+    st.session_state.topic_hint = None  # 例: category名
 
-# チャットUI
+# ===== チャットUI =====
 st.markdown("---")
 st.subheader("💬 チャット")
 
@@ -95,21 +132,23 @@ with col2:
 
 if st.button("🧹 履歴をクリア"):
     st.session_state.messages = []
+    st.session_state.topic_hint = None
 
-# 質問処理
+# ===== 処理 =====
 if ask_clicked and user_input.strip():
+    # 直近のユーザー質問（現在は含めず）を新しい順で抽出
+    past_user_qs = [m["content"] for m in reversed(st.session_state.messages) if m["role"] == "user"]
+    res = retrieve_and_answer(user_input, past_user_qs, st.session_state.topic_hint)
+
+    # ログ追加
     st.session_state.messages.append({"role": "user", "content": user_input})
-    res = retrieve_and_answer(user_input)
     if res is None:
         st.session_state.messages.append({"role": "assistant", "content": "質問が空です。"})
     else:
-        st.session_state.messages.append({
-            "role": "assistant",
-            "content": res["answer"],
-            "meta": res
-        })
+        st.session_state.messages.append({"role": "assistant", "content": res["answer"], "meta": res})
+        st.session_state.topic_hint = res.get("topic_hint", st.session_state.topic_hint)
 
-# 表示
+# ===== 表示 =====
 for msg in st.session_state.messages:
     if msg["role"] == "user":
         with st.chat_message("user"):
@@ -117,14 +156,7 @@ for msg in st.session_state.messages:
     else:
         with st.chat_message("assistant"):
             st.write(msg["content"])
-            meta = msg.get("meta")
-            if meta and not meta.get("unknown", True) and show_sources:
-                st.caption(f"確信度（類似度）: {meta['score']:.3f}")
-                with st.expander("🔎 関連候補（上位）"):
-                    rows = []
-                    for idx, sc in meta["candidates"]:
-                        row = df.iloc[idx]
-                        rows.append({"row_index": idx, "similarity": round(sc, 4)} | row.to_dict())
-                    st.dataframe(pd.DataFrame(rows))
-            elif meta and meta.get("unknown", False):
-                st.caption(f"最も近い候補の類似度: {meta['score']:.3f}（しきい値未満のため『分からない』）")
+            if SHOW_SOURCES:
+                meta = msg.get("meta")
+                if meta:
+                    st.caption(f"score: {meta.get('score', 0):.3f}, topic: {st.session_state.topic_hint}")
