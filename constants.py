@@ -3,7 +3,7 @@ import re
 # ==== 固定設定 =====================================================
 CSV_FILE = "dance_school.csv"          # 固定の参考資料CSV
 ENCODING = "utf-8"
-INDEX_COLS = ["name", "overview", "access"]
+INDEX_COLS = ["name", "url", "about","price","reserve","youtube","instagram","schedule","instructor","access","tel","mail","open"]
 CHUNK_SIZE = 700
 CHUNK_OVERLAP = 150
 
