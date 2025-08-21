@@ -1,16 +1,632 @@
-name,url,overview,access,class,price,dancer,youtube,instagram
-NOA Dance Academy,https://www.noadance.com/,東京に5校を展開する大手ダンススタジオ。ヒップホップ、ロック、クランプなど多彩なジャンルを網羅し、国内トップクラスのインストラクターが指導 。初心者から上級者まで対応し、誰もが参加しやすい環境。,,,,,,
-En Dance Studio,https://en-dance-studio.com/,渋谷発の人気ダンススタジオで、世界レベルのプロダンサーが多数在籍 。ヒップホップ系を中心に指導し、英語対応クラスや海外ダンサーのワークショップも開催。複数拠点（渋谷・横浜等）あり。,,,,,,
-ブロードウェイダンスセンター (BDC),https://www.b-d-c.jp/,1984年創立の老舗スタジオ 。新宿に大型施設（スタジオ5部屋）を構え、バレエからヒップホップまで週150以上のクラスを開講 。予約不要のオープンクラス制で、初心者でもパスポート（身分証）持参で当日受付可能。,,,,,,
-エイベックス・アーティストアカデミー 東京校,https://aaa.avex.jp/,大手音楽プロダクションAvexが運営するエンタテインメント養成スクール 。初心者向けからプロ志望者まで段階的に学べるクラスを提供 。原宿に校舎があり、ダンス＆ボーカルなど総合的なカリキュラムが特徴。,,,,,,
-EXPGスタジオ 東京校 (EXPG Studio),https://expg.jp/,EXILEなどが所属するLDHが運営する本格ダンススクール 。2003年に中目黒で開校し、現在は世界各地に展開。アーティスト志望のダンサーを育成するプロ養成所で、在校生はプロのライブやMVに出演する機会も豊富 。初心者クラスもあり。,,,,,,
-ETCダンススクール,https://www.e-t-c.net/,東京・神奈川に全10校を構える初心者歓迎のストリートダンス教室 。子供から大人まで年齢別・レベル別クラスが充実し、「ダンスを始めるならETC」がコンセプト 。2019年よりEXPGグループ傘下となり、EXPG監修の指導も導入。,,,,,,
-BEAT BOX ダンススタジオ (代々木),http://www.beatbox-jp.com/,1999年開業の東京初ストリートダンス専門スタジオで、20年以上の実績を持つ老舗 。代々木駅近くに4つのスタジオを有し、アットホームな雰囲気で初心者から経験者まで指導。ダンスカルチャーの基礎から楽しさまで学べる場を提供。,,,,,,
-ヒラソル銀座ダンススクール,https://www.girasolginza.jp/,銀座にある多ジャンル対応のダンススクール。サルサやフラメンコなど各国の民族舞踊系ジャンルにも強く、入門者歓迎のアットホームな雰囲気 。銀座駅・東銀座駅から徒歩圏内という好立地。,,,,,,
-ONES TO WATCH ダンススタジオ,http://www.onestowatch.jp/,新宿・浅草橋・下北沢など都内複数拠点を展開するストリートダンススタジオ。初心者からプロ志望まで幅広く対応し、小学生から50代まで様々な年代が在籍 。体験レッスンは随時受付で、入会金無料キャンペーンも実施。,,,,,,
-DANCE STUDIO SiS (初台),https://d-merge.com/studio/dance.html,渋谷区初台にあるダンススタジオ。楽しく踊ることを第一に掲げたアットホームな教室 で、ヒップホップやガールズなど初心者向けクラスも充実。少人数制で講師との距離が近く、アットホームな雰囲気で学べる。,,,,,,
-RECNAD 社会人ダンスサークル (渋谷),http://recnad.jp/,プロダンサー・Show-Me主宰の社会人向けストリートダンスサークル。2012年渋谷で発足し「ダンスがきっかけで変わる人生」がコンセプト 。現在約280名が所属し、未経験者からプロ志望者まで在籍。週数回の夜間・週末クラスがあり、年間10回以上のステージ出演チャンスが用意されている。,,,,,,
-Tokyo Steps Arts,,,,,,,,
-DANCE WORKS,https://danceworks.jp/,,,,,,,
-REI,https://www.rei-dance.com/shibuya,,,,,,,
-東京ダンスヴィレッジ,https://www.dancevillage.jp/,,,,,,,
+name,url,about,クラス内容,price,reserve,youtube,instagram,schedule,instructor,access,tel,mail,open
+ノアダンスアカデミー (NOA Dance Academy)　新宿本校,https://www.noadance.com/shinjuku/,NOAダンスアカデミー新宿本校は、新宿西口駅D4出口すぐのアクセス抜群なロケーションにあり、広々とした4スタジオとゆったりとくつろげるロビースペースを完備。ロッカーやシャワー付き更衣室で、レッスン前後も快適です。ジャンル豊富なストリートダンスが初心者から上級者まで学べる環境です。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=8,,〒160-0023 東京都新宿区西新宿1-3-14 新宿プラザ（受付6F）,03-3362-7011,,
+ノアダンスアカデミー (NOA Dance Academy)　新宿ANNEX校,https://www.noadance.com/shinjuku-annex/,NOAダンスアカデミー新宿ANNEX校は、新宿西口すぐの好立地。HIP-HOPやJAZZなど多彩なジャンルに対応し、すべて鍵付ロッカー・シャワー完備の快適施設で初心者から上級者まで幅広く学べます。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=8,,〒160-0023 東京都新宿区西新宿1-3-14 新宿プラザ（受付2F）,03-5909-5518,,
+ノアダンスアカデミー (NOA Dance Academy)　秋葉原校,https://www.noadance.com/akihabara/,NOAダンスアカデミー秋葉原校は、末広町駅すぐ・秋葉原駅徒歩7分の好立地。3面の自然光スタジオ（天井高6m）、多彩なジャンル対応、超入門クラス、鍵付きロッカーやシャワー完備で快適に学べます。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=1,,〒101-0021　東京都千代田区外神田6-14-8（受付7F）,03-3834-5321,,
+ノアダンスアカデミー (NOA Dance Academy)　池袋校,https://www.noadance.com/ikebukuro/,池袋駅東口から徒歩4分のNOAダンスアカデミー池袋校は、広く快適な3つのスタジオと休憩ロビー、ロッカー・シャワー完備。超入門〜上級まで多彩なジャンルのレッスンが楽しめます。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=4,,〒171-0022 東京都豊島区南池袋1-16-18 フェイス池袋6F,03-5950-2855,,
+ノアダンスアカデミー (NOA Dance Academy)　恵比寿校,https://www.noadance.com/ebisu/,恵比寿駅東口（西口）徒歩3分の好立地にあるNOAダンスアカデミー恵比寿校は、ヒップホップやジャズ、ロック、ソウル、ハウスなど幅広いジャンルを学べるスタジオ。明るく洗練された空間で、鍵付ロッカー・シャワールーム・パウダールームなど快適な設備も充実しています。初心者やキッズ向けクラスもあり、安心して通えます。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=2,,〒150-0012 東京都渋谷区広尾1-15-3,03-5791-7263,,
+ノアダンスアカデミー (NOA Dance Academy)　原宿校,https://www.noadance.com/harajuku/,NOAダンスアカデミー原宿校は、原宿駅すぐのアクセス良好なロケーションに位置し、HIP-HOP・JAZZ・LOCK・HOUSEなど多彩なジャンルを初心者〜上級者まで学べるスタジオです。すべての校舎に鍵付きロッカー・シャワー完備で快適な環境を提供しています。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=12,,〒150-0001 東京都渋谷区神宮前1-17-5 原宿シュロス（城西ビル）2F,03-5786-6011,,
+ノアダンスアカデミー (NOA Dance Academy)　中野校,https://www.noadance.com/nakano/,NOAダンスアカデミー中野校は、中野駅南口徒歩4分。ヒップホップ、ジャズ、ロック、ソウル、ハウス、KIDS など豊富なストリートダンスジャンルに対応。広く明るいスタジオとシャワー・鍵付ロッカー・パウダールームを完備し、快適かつ初心者も安心の環境です。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=15,,〒164-0001 東京都中野区中野3丁目39-2 （受付B1F）,03-6304-8608,,
+ノアダンスアカデミー (NOA Dance Academy)　銀座校,https://www.noadance.com/ginza/,NOAダンスアカデミー銀座校は、銀座駅A13出口から徒歩3分の好立地にあり、HIP-HOP、JAZZなど幅広いストリートダンスジャンルを学べる女性専用のスタジオ。A〜Cの3スタジオ、窓付きで採光良好なレッスン空間、シャワー・更衣室完備で快適です。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=3,,〒104-0061　東京都中央区銀座3-9-2（受付7F）,03-3524-2288,,
+ノアダンスアカデミー (NOA Dance Academy)　赤坂校,https://www.noadance.com/akasaka/,赤坂駅1番出口すぐのNOAダンスアカデミー赤坂校は、HIP-HOP、JAZZ、LOCK、SOUL、PUNKING、HOUSE、POP、REGGAE、SALSAなど多彩なジャンルに対応したスタジオ。明るく快適な空間で、シャワー・鍵付ロッカー・パウダールーム完備。超入門クラスもあり、初心者にも安心です。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=11,,〒107-0052 東京都港区赤坂3丁目13−12（受付3F）,03-5545-1928,,
+ノアダンスアカデミー (NOA Dance Academy)　御茶ノ水校,https://www.noadance.com/ochanomizu/,御茶ノ水駅すぐ、歴史と学びの街にあるNOAダンスアカデミー御茶ノ水校は、採光豊かなLED照明スタジオで多彩なストリートダンス（HIP-HOP、JAZZ、LOCK、SOULなど）、初心者向け～キッズクラスもあり、鍵付ロッカー・シャワー完備で快適に学べるスクールです。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=14,,〒101-0062 東京都千代田区神田駿河台2丁目1-17,03-5217-7683,,
+ノアダンスアカデミー (NOA Dance Academy)　吉祥寺校,https://www.noadance.com/kichijoji/,吉祥寺駅北口徒歩6分、井の頭公園近くの明るく広々としたスタジオで、ヒップホップ、ジャズ、ロック、ソウル、ハウスなど多彩なストリートダンスが学べます。LED照明、シャワー・更衣室完備で超入門クラスもあり初心者にも安心です。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=6,,〒180-0004 東京都武蔵野市吉祥寺本町2-16-12　ヨキヒ吉祥寺B1F,0422-29-3005,,
+ノアダンスアカデミー (NOA Dance Academy)　中目黒校,https://www.noadance.com/nakameguro/,中目黒駅徒歩3分、スタイリッシュなロビーや8階テラスが魅力のNOA中目黒校。ヒップホップ、ジャズ、ハウス、ロック、ソウル、ワッキングなど多彩なジャンルのレッスンを、超入門から初心者向けクラスまで安心して受けられます。鍵付きロッカー・シャワー・パウダールーム完備。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=7,,〒153-0051　東京都目黒区上目黒3-3-5（受付2F）,03-6412-7871,,
+ノアダンスアカデミー (NOA Dance Academy)　駒沢校,https://www.noadance.com/komazawa/,駒沢大学駅西口から徒歩2～3分の落ち着いた環境に位置する女性専用スタジオ。ヒップホップ、ジャズ、ロック、ソウルなど多彩なジャンルに対応し、採光良好な明るい空間、シャワー・更衣室・鍵付きロッカー完備で快適に通えます。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	POP(ポップ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=5,,〒154-0011東京都世田谷区上馬4-2-7（受付8F）,03-5779-4130,,
+ノアダンスアカデミー (NOA Dance Academy)　都立大校,https://www.noadance.com/toritsudai/,東急東横線都立大学駅徒歩3分にあるNOAダンスアカデミー都立大校は、HIP HOP・JAZZ・LOCK・SOUL・HOUSEなど多彩なジャンルに対応。シャワー・更衣室完備で快適に通いやすい環境です。,"GENRE
+	HIPHOP(ヒップホップ)
+	JAZZ(ジャズ)
+	LOCK(ロック)
+	SOUL(ソウル)
+	PUNKING(パンキング)
+	HOUSE(ハウス)
+	FREE STYLE/REGGAE(フリースタイル/レゲエ)
+	POP(ポップ)
+	SALSA(サルサ)
+	Jr.CLASS(キッズ)","INTERNATIONAL COURSE
+One month unlimited （All Class）
+¥44,000
+TICKET COURSE
+Single Ticket
+¥5,500
+	Notes:
+	A passport presentation is required.
+	Can be used in all school buildings
+	Payments must be prepaid.（Cash or Credit card：VISA , MasterCard , JCB , American Express , Diners club , 銀聯 UnionPay)
+	Prorated payments are not possible. It will be on a monthly basis. Ex)11/15 ~ 12/14 ➡ Payment for two months is required.
+	Only those who can strictly adhere to the school's rules are eligible.","https://www.noadance.com/contact/
+
+※通常の予約ページからの予約は日本の電話番号が必要",https://www.youtube.com/user/nda2010nda,https://www.instagram.com/noadance_official/,https://www.noadance.com/schedule_search/?location=10,,〒152-0031 東京都目黒区中根1-7-23 STビル（受付2Ｆ）,03-3725-3001,,
+En Dance Studio 渋谷校,https://en-dance-studio.com/,渋谷発の人気ダンススタジオで、世界レベルのプロダンサーが多数在籍 。ヒップホップ系を中心に指導し、英語対応クラスや海外ダンサーのワークショップも開催。複数拠点（渋谷・横浜等）あり。,,"Unlimited Course
+One month unlimited *BOTH OF SHIBUYA and Scramble
+AGE
+OVER 13
+PRICE
+¥38,500 tax in
+Unlimited Course
+ONE MONTH UNLIMITED FOR 1 STUDIO
+AGE
+OVER 13
+PRICE
+¥32,780 tax in
+Unlimited Course
+ONE WEEK UNLIMITED FOR 1 STUDIO
+AGE
+OVER 6
+PRICE
+¥25,080 tax in
+Unlimited Course
+ONE DAY UNLIMITED FOR 1 STUDIO
+AGE
+OVER 13
+PRICE
+¥9,900 tax in
+Ticket Course
+SINGLE TICKET
+AGE
+OVER 13
+PRICE
+¥4,400 tax in
+Ticket Course
+４ TICKETS IN 1 WEEK
+AGE
+OVER 13
+PRICE
+¥15,400 tax in
+Ticket Course
+8 TICKETS IN 2 WEEK
+AGE
+OVER 6
+PRICE
+¥23,210 tax in
+※All studio[SHIBUYA・SCRAMBLE・YOKOHAMA・EnSTUDIO(K-POP)]",,https://www.youtube.com/channel/UCxvI8Ejl7FQ_uRCM0kgG3BA,https://www.instagram.com/endancestudio/?igshid=YmMyMTA2M2Y=,https://en-dance-studio.com/shibuya/schedule,https://en-dance-studio.com/shibuya/instructor,"т150-0042
+東京都渋谷区渋谷1-11-12 諸戸ビルB
+
+
+渋谷駅より徒歩5分！渋谷ヒカリエ側すぐそこ！
+副都心線渋谷駅なら徒歩1分",03-6418-153,,"月～金
+14:00 - 22:00
+土
+12:30 - 20:00
+日・祝
+CLOSE"
+En Dance Studio スクランブル校,https://en-dance-studio.com/,渋谷発の人気ダンススタジオで、世界レベルのプロダンサーが多数在籍 。ヒップホップ系を中心に指導し、英語対応クラスや海外ダンサーのワークショップも開催。複数拠点（渋谷・横浜等）あり。,,"Unlimited Course
+One month unlimited *BOTH OF SHIBUYA and Scramble
+AGE
+OVER 13
+PRICE
+¥38,500 tax in
+Unlimited Course
+ONE MONTH UNLIMITED FOR 1 STUDIO
+AGE
+OVER 13
+PRICE
+¥32,780 tax in
+Unlimited Course
+ONE WEEK UNLIMITED FOR 1 STUDIO
+AGE
+OVER 6
+PRICE
+¥25,080 tax in
+Unlimited Course
+ONE DAY UNLIMITED FOR 1 STUDIO
+AGE
+OVER 13
+PRICE
+¥9,900 tax in
+Ticket Course
+SINGLE TICKET
+AGE
+OVER 13
+PRICE
+¥4,400 tax in
+Ticket Course
+４ TICKETS IN 1 WEEK
+AGE
+OVER 13
+PRICE
+¥15,400 tax in
+Ticket Course
+8 TICKETS IN 2 WEEK
+AGE
+OVER 6
+PRICE
+¥23,210 tax in
+※All studio[SHIBUYA・SCRAMBLE・YOKOHAMA・EnSTUDIO(K-POP)]",,https://www.youtube.com/channel/UCxvI8Ejl7FQ_uRCM0kgG3BA,https://www.instagram.com/endancestudio/?igshid=YmMyMTA2M2Y=,https://en-dance-studio.com/shibuya/schedule,https://en-dance-studio.com/shibuya/instructor,"т150-0042
+東京都渋谷区宇田川町13-11
+KN渋谷1ビル8F
+
+渋谷駅より徒歩5分！
+宇田川交番前アドアーズビルの8F！",03-5458-2332,,"月～金
+土
+日・祝
+12:30 - 22:00
+9:00 - 22:00
+11:30 - 19:00"
+NEXTinDANCE,http://nextindance.com/,NEXTinDANCEは渋谷・MIYASHITA PARK内にあるK-POP専門スタジオ。初心者〜上級者向けの入門やカバー、振付レッスンに加え、NiDアカデミーでは韓国語ボーカル、メイク、体づくりなど含む1年のグローバルアイドル養成プログラムを提供しています。,,"Unlimited Course
+One month unlimited *BOTH OF SHIBUYA and Scramble
+AGE
+OVER 13
+PRICE
+¥38,500 tax in
+Unlimited Course
+ONE MONTH UNLIMITED FOR 1 STUDIO
+AGE
+OVER 13
+PRICE
+¥32,780 tax in
+Unlimited Course
+ONE WEEK UNLIMITED FOR 1 STUDIO
+AGE
+OVER 6
+PRICE
+¥25,080 tax in
+Unlimited Course
+ONE DAY UNLIMITED FOR 1 STUDIO
+AGE
+OVER 13
+PRICE
+¥9,900 tax in
+Ticket Course
+SINGLE TICKET
+AGE
+OVER 13
+PRICE
+¥4,400 tax in
+Ticket Course
+４ TICKETS IN 1 WEEK
+AGE
+OVER 13
+PRICE
+¥15,400 tax in
+Ticket Course
+8 TICKETS IN 2 WEEK
+AGE
+OVER 6
+PRICE
+¥23,210 tax in
+※All studio[SHIBUYA・SCRAMBLE・YOKOHAMA・EnSTUDIO(K-POP)]",,https://www.youtube.com/channel/UCWlAFDigjyRX41m055HS0jw,https://www.instagram.com/next_in_dance/,http://nextindance.com/schedule/,http://nextindance.com/instructor/,"〒150-0002
+東京都渋谷区渋谷1-26
+MIYASHITA PARK South3F
+
+渋谷駅より徒歩3分！
+宮下パークの南館3階！",03-6434-1192,,"月～金
+土・日・祝
+14:00 - 23:00
+11:00-19:00"
+ブロードウェイダンスセンター (BDC),https://www.b-d-c.jp/,1984年創立の老舗スタジオ 。新宿に大型施設（スタジオ5部屋）を構え、バレエからヒップホップまで週150以上のクラスを開講 。予約不要のオープンクラス制で、初心者でもパスポート（身分証）持参で当日受付可能。,,"VISITOR
+（1レッスン）
+¥3,900
+(税込 ¥4,290)",,https://www.youtube.com/user/1dance2dancer3artist,https://www.instagram.com/bdctokyo/,https://b-d-c.jp/schedule/index.html,https://b-d-c.jp/teacher/index.html,"BDC本館 ：〒169-0073 東京都新宿区百人町1-23-26 BDC本館
+BDC ANNEX：〒169-0073 東京都新宿区百人町1-23-29 BDC ANNEX
+
+JR大久保駅南口より徒歩1分",03-5330-3530,info@b-d-c.jp,
+EXPGスタジオ 東京校 (EXPG Studio),https://expg.jp/school/tokyo/,EXILEなどが所属するLDHが運営する本格ダンススクール 。2003年に中目黒で開校し、現在は世界各地に展開。アーティスト志望のダンサーを育成するプロ養成所で、在校生はプロのライブやMVに出演する機会も豊富 。初心者クラスもあり。,https://expg.jp/lesson/,,,https://www.youtube.com/user/expgmovie,https://www.instagram.com/expg_studio_by_ldh_info/,https://expg.jp/school/tokyo/schedule/,https://expg.jp/instructor/#tokyo,"東京都目黒区青葉台2-17-16
+
+東急東横線「中目黒」駅より徒歩11分
+東急田園都市線「池尻大橋」駅より徒歩12分
+東急バス トランセ系統「青葉台2丁目」下車目の前
+東急バス 渋谷41系統「菅刈小学校」下車徒歩2分",03-5456-7100,,13:00 - 21:00
+ETCダンススクール　池袋校,https://www.e-t-c.net/ikebukuro/,ETCダンススクール池袋校は池袋西口徒歩約8分、1〜3階に計3スタジオを持ち、キッズから社会人まで幅広い年齢層が通うアットホームなダンススクール。年間を通じたイベントも豊富です。,https://www.e-t-c.net/lesson/,"1レッスンチケット
+¥3,850
+1レッスン受講可能
+
+10レッスンチケット
+¥33,000
+10レッスン受講可能
+（購入日より4ヶ月有効）",,https://www.youtube.com/user/etcdanceschool/videos,https://www.instagram.com/etcdanceschool/,https://www.e-t-c.net/r_schedule/,https://www.e-t-c.net/instructor/,"〒171-0014
+東京都豊島区池袋2-55-11 ROYALビル1F／2F／3F
+
+池袋駅西口より徒歩8分",03-5950-1355,ikebukuro@e-t-c.net,
+ETCダンススクール　金町校,https://www.e-t-c.net/kanamachi/,金町駅北口徒歩3分、2スタジオ完備のETCダンススクール金町校は、キッズ～社会人まで通えるアットホームな環境と年間イベントで、初心者でも安心してダンスを楽しめる地域密着型スクールです。,https://www.e-t-c.net/lesson/,"1レッスンチケット
+¥3,850
+1レッスン受講可能
+
+10レッスンチケット
+¥33,000
+10レッスン受講可能
+（購入日より4ヶ月有効）",,https://www.youtube.com/user/etcdanceschool/videos,https://www.instagram.com/etcdanceschool/,https://www.e-t-c.net/r_schedule/,https://www.e-t-c.net/instructor/,"〒125-0041
+東京都葛飾区東金町1-41-4 金町中央ビル2F
+
+JR金町駅北口より徒歩3分",03-3600-1355,kanamachi@e-t-c.net,
+ETCダンススクール　町田校,https://www.e-t-c.net/machida/,ETCダンススクール町田校は町田駅徒歩3分に位置し、2スタジオ完備。キッズ〜社会人まで通える温かなコミュニティと年間の楽しいイベントが特長の、通いやすい地域密着型スクールです。 ,https://www.e-t-c.net/lesson/,"1レッスンチケット
+¥3,850
+1レッスン受講可能
+
+10レッスンチケット
+¥33,000
+10レッスン受講可能
+（購入日より4ヶ月有効）",,https://www.youtube.com/user/etcdanceschool/videos,https://www.instagram.com/etcdanceschool/,https://www.e-t-c.net/r_schedule/,https://www.e-t-c.net/instructor/,"〒194-0022
+東京都町田市森野1-15-12長谷川ビル1F
+
+小田急線・JR横浜線 町田駅より徒歩3分",042-720-1855,machida@e-t-c.net,
+Tokyo Steps Arts 高田馬場校,https://www.t-steps.jp/takadanobaba/,"高田馬場駅徒歩1分、月9,980円の受け放題で多彩なジャンル（HIP HOP、JAZZ、K-POPなど）に対応。5つのスタジオ、充実の更衣室・ロッカー・シャワー完備で快適な初心者～上級者向けスクールです。",,"ビジターチケット 1 回：3,500 円（税込）",,,https://www.instagram.com/tokyostepsarts_takadanobaba/,https://www.t-steps.jp/schedule/takadanobaba/,https://www.t-steps.jp/instructor/,"〒169-0075　東京都新宿区高田馬場1-24-11
+JR山手線・西武新宿線「高田馬場」駅、戸山口より徒歩１分 東京メトロ東西線「高田馬場」駅、３番出口より徒歩３分 東京メトロ副都心線「西早稲田」駅、２番出口より徒歩６分",03-6233-9133,,
+Tokyo Steps Arts アニメダンス池袋校,https://www.t-steps.jp/anime_dance/,"池袋駅東口徒歩3分、月9,980円で全ジャンル受け放題のダンススクール。アニソンダンスやK‑POP、JAZZ HIPHOP、バレエなど幅広く対応し、駅近で通いやすい環境も魅力です。",,"ビジターチケット 1 回：3,500 円（税込）",,,https://www.instagram.com/stepsarts_ADIB/,https://www.t-steps.jp/schedule/anime_dance/,https://www.t-steps.jp/instructor/,"東京都豊島区東池袋1-22-5 サンケェビル６F
+池袋駅東口より徒歩３分 東池袋駅より徒歩3分",03-6903-1767,,
+Tokyo Steps Arts 八王子校,https://www.t-steps.jp/hachioji/,"八王子駅徒歩2分、月額9,980円（税込）で受け放題のダンススクール。HIPHOPやJAZZ、LOCKなど多彩なジャンル。3スタジオ＋レンタル5スタジオを完備し、一流講師によるレッスンが受けられます。",,"ビジターチケット 1 回：3,500 円（税込）",,,https://www.instagram.com/accounts/login/?next=/tokyostepsarts802/&source=omni_redirect,https://www.t-steps.jp/schedule/hachioji/,https://www.t-steps.jp/instructor/,"〒192-0082　東京都八王子市東町11-3 センチュリーステーションビル5F
+JR中央線「八王子」駅、北口　徒歩２分 京王線「京王八王子」駅、出口2　徒歩８分",042-649-3933,,
+DANCE WORKS,https://danceworks.jp/,渋谷のDANCE WORKSは、6スタジオを備えた経験者向けダンススクール。100名以上の一流講師が在籍し、多彩なレッスンや年間イベントで本格的に学べます。,,"1 TICKE
+► ¥3,500
+Within 1 month from the day of purchase
+3 TICKETS ► ¥10,500
+Within 2 month from the day of purchase
+5 TICKETS ¥17,000
+Within 4 month from the day of purchase
+UNLIMITED
+FOR 1 WEEK
+► ¥25,000
+Within 1 month from the day of purchase
+UNLIMITED
+FOR 1 MONTH
+► ¥36,000
+Within 1 week from the day of purchase","https://danceworks.jp/news/studio-news/48064/
+
+Maximum 4 lesson can be booked at the same time.
+
+your passport or something where you live",https://www.youtube.com/user/pgdanceworks,https://www.instagram.com/danceworks_jpn/,https://danceworks.jp/lesson/,https://danceworks.jp/instructor/,"〒150-0032 東京都渋谷区鶯谷町7-10 NMDビル2F-6F
+
+・副都心線/東急東横線:渋谷ヒカリエ改札 C2出口 徒歩8分
+Access Movie
+・JR山手線/埼京線:新南口改札 徒歩6分
+・京王井の頭線:中央口 徒歩10分",,,
+REI,https://www.rei-dance.com/shibuya,女性限定・日本最大級のダンススタジオ「Rei Dance Collection」は、2003年創立。初心者から上級者まで対応し、渋谷3拠点・横浜4拠点で幅広いジャンルや高品質なレッスンを提供。設備・アクセスともに充実しています。,,"プラン名
+価格
+単価
+（1レッスンあたり）
+有効期間
+1回
+¥3,800
+¥3,800
+有効期限：1ヶ月
+4回
+¥14,400
+¥3,600
+有効期限：2ヶ月
+8回
+¥27,200
+¥3,400
+有効期限：3ヶ月
+ポール1回
+¥4,800
+¥4,800
+有効期限：1ヶ月
+	注意事項
+	・お客様側での事前キャンセルや、レッスンが休講等になった場合、チケットは消化されず、別のレッスンで使用可能です。有効期限内にご利用ください。
+	・有効期限が切れた場合の返金等は出来かねますのでご注意ください。
+	・ポールダンスのレッスンは、ポール1回チケットでのご予約が必要です。",,https://www.youtube.com/user/reigreen2011,https://www.instagram.com/reidance_collection/,https://www.rei-dance.com/shibuya/lesson,https://www.rei-dance.com/shibuya/instructor,"〒150-0042 東京都渋谷区宇田川町34-5渋谷サイト―ビルⅢ B1F
+
+・東急東横線・田園都市線・東京メトロ半蔵門線・副都心線「渋谷駅」A2出口徒歩3分 ・JR「渋谷駅」ハチ公口徒歩5分",03-6427-2719,,
+東京ダンスヴィレッジ　渋谷校,https://www.dancevillage.jp/school/shibuya/,"東京ダンスヴィレッジ渋谷校は、20～30代の初心者女性限定スクール。渋谷駅A2出口徒歩1分に位置し、“超入門クラス”や1000以上の振替クラスがあり、柔軟に通えます。月2回約6,900円～。",https://www.dancevillage.jp/#anker-genre,https://www.dancevillage.jp/price.html,,https://www.youtube.com/channel/UCV0BmQ37YwTymdSLMH6alZg,https://www.instagram.com/tokyodancevillage/,https://www.dancevillage.jp/schedule/#/index_lessontype1_schoolid3.html?disp=date,,"〒150-0043 東京都渋谷区道玄坂2-25-12 道玄坂通 dogenzaka-dori 2F
+
+JR、東京メトロ、京王井の頭、東急東横・田園都市各線「渋谷」駅A2出口 徒歩1分 ビル1F 猿田彦珈琲（MEGAドン・キホーテ向かい）",03-6416-3452,,"月曜・金曜
+13：30～22：00
+火曜〜木曜
+10：00～22：00
+土曜
+10：00～21：30
+日曜
+10：00～20：00
+＊一部祝日・年末年始・夏期・ゴールデンウィークは休校です。"
+東京ダンスヴィレッジ　新宿校,https://www.dancevillage.jp/school/shinjuku/,新宿駅徒歩1分、「初心者の20〜30代女性限定」ダンススクール。全くの未経験者でも安心な「超入門クラス」、全ジャンル・全店舗に対応する1000以上の振替制度など、通いやすさと居心地の良さが魅力です。,https://www.dancevillage.jp/#anker-genre,https://www.dancevillage.jp/price.html,,https://www.youtube.com/channel/UCV0BmQ37YwTymdSLMH6alZg,https://www.instagram.com/tokyodancevillage/,https://www.dancevillage.jp/schedule/#/index_lessontype1_schoolid2.html?disp=date,,"〒160-0022 東京都新宿区新宿 3-17-5T&TⅢビル4F
+
+JR「新宿駅」東口/メトロ「新宿三丁目駅」より徒歩1分。 メトロプロムナードB6出口直結。（地下からエレベーターで直接4Fへ上がれます） ディスニーストアのあるビル4F",03-6709-8444,,"月曜・金曜
+13：30～22：00
+火曜〜木曜
+10：00～22：00
+土曜
+10：00～21：30
+日曜
+10：00～20：00
+＊一部祝日・年末年始・夏期・ゴールデンウィークは休校です。"
+東京ダンスヴィレッジ　池袋校,https://www.dancevillage.jp/school/ikebukuro/,"東京ダンスヴィレッジ池袋校は、池袋駅徒歩1分の初心者女性向けダンススクール。「超入門クラス」で同レベル同士が安心して学べ、月2回で約6,900円〜通いやすく、無料振替制度も充実しています。",https://www.dancevillage.jp/#anker-genre,https://www.dancevillage.jp/price.html,,https://www.youtube.com/channel/UCV0BmQ37YwTymdSLMH6alZg,https://www.instagram.com/tokyodancevillage/,https://www.dancevillage.jp/schedule/#/index_lessontype1_schoolid1.html?disp=date,,"〒170-0013 東京都豊島区東池袋 1-8-1WACCA池袋2F
+
+JR、東京メトロ、東武、西武各線「池袋駅」東口目の前。 JR東口29番出口より徒歩1分、ヤマダ電機出口すぐのwacca池袋です。",03-5391-3230,,"月曜・金曜
+13：30～22：00
+火曜〜木曜
+10：00～22：00
+土曜
+10：00～21：30
+日曜
+10：00～20：00
+＊一部祝日・年末年始・夏期・ゴールデンウィークは休校です。"
+MAJOR Dance Studio 中目黒スタジオ,https://majordancestudio.jp/studio/nakameguro/,MAJOR DANCE STUDIO は中目黒・目黒（東京）と心斎橋・梅田（大阪）にスタジオを展開し、国内外の一流講師が初心者から上級者まで丁寧に指導するダンススタジオです。各校には広々としたレンタルスタジオ（Aスタジオ：約120㎡・Bスタジオ：約150㎡）もあり、リハーサルや撮影にも便利な環境が整っています。,,"	1日受け放題¥7,700
+	1週間受け放題¥15,400
+	1ヶ月受け放題¥23,100
+	4回チケット¥11,000
+	8回チケット¥16,500
+1日受け放題：当日のみ有効１週間受け放題：7日間有効1ヶ月受け放題・4回チケット・8回チケット：30日間有効",,https://www.youtube.com/@majordancestudio2249,https://www.instagram.com/major_dancestudio/,https://majordancestudio.jp/schedule/nakameguro/,,"〒153-0051
+東京都目黒区上目黒3-6-18 TYビル 8階 9階
+
+東急東横線・東京メトロ日比谷線中目黒駅 南改札徒歩2分",03-5734-1040,,"月〜金　14:30〜23:00
+土　9:00〜22:30
+日　9:00〜16:30"
+MAJOR Dance Studio 目黒スタジオ,https://majordancestudio.jp/studio/meguro/,MAJOR DANCE STUDIO は中目黒・目黒（東京）と心斎橋・梅田（大阪）にスタジオを展開し、国内外の一流講師が初心者から上級者まで丁寧に指導するダンススタジオです。各校には広々としたレンタルスタジオ（Aスタジオ：約120㎡・Bスタジオ：約150㎡）もあり、リハーサルや撮影にも便利な環境が整っています。,,"	1日受け放題¥7,700
+	1週間受け放題¥15,400
+	1ヶ月受け放題¥23,100
+	4回チケット¥11,000
+	8回チケット¥16,500
+1日受け放題：当日のみ有効１週間受け放題：7日間有効1ヶ月受け放題・4回チケット・8回チケット：30日間有効",,https://www.youtube.com/@majordancestudio2249,https://www.instagram.com/major_meguro/?utm_source=qr,https://majordancestudio.jp/schedule/meguro/,,"〒153-0064
+東京都目黒区下目黒1-2-12 白金ビル B1F
+
+東急目黒線・東京メトロ南北線目黒駅 南改札徒歩2分",03-6416-3230,,"月〜金　14:30〜23:00
+土　10:00〜21:30
+日　10:00〜21:30"
+SPACE LOV3,https://spacelov3.com/,愛と自由に満ちた空間として、ダンスや“好き”との出会いで情熱や個性を育むスタジオ。RIEHATA監修の教育法と、全国から選ばれた講師が技術・表現力・人間性を高める場を提供します。愛を込めた総合的な成長の拠点です。,,"一般CLASSビジター
+¥4,400
+＊予約で埋まっているクラス以外は当日の飛び込み参加も可能です。
+＊ビジターチケットのみの当日店頭決済又は事前クレジット決済をお選びいただけます。
+＊事前クレジット決済、事前予約をしたい方は、簡単なアカウント登録が必要となります。（入会登録ではございません）",,,https://www.instagram.com/spacelov3_japan/,https://mypage.spacelov3.com/reserve/schedule/1/1,https://spacelov3.com/teacher/,"〒150-0041 東京都渋谷区神南1-17-11ガーデンキューブ渋谷神南1階",,,
